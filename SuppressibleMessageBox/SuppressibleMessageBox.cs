@@ -27,14 +27,6 @@ namespace Com.RobFaust.Common.UserInterface
         #region Static Methods
         public static DialogResult Show(Configuration config, string messageId, string message) => Show(config, messageId, message, "Error");
 
-        /// <summary>
-        /// For Program.AddUpdateAppSettings and Program.ReadSetting implementations, please visit
-        /// https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager.appsettings?view=netframework-4.8
-        /// </summary>
-        /// <param name="messageId"></param>
-        /// <param name="message"></param>
-        /// <param name="caption"></param>
-        /// <returns></returns>
         public static DialogResult Show(Configuration config, string messageId, string message, string caption)
         {
             DialogResult result = DialogResult.None;
@@ -63,6 +55,12 @@ namespace Com.RobFaust.Common.UserInterface
         #endregion
 
         #region Configuration Methods
+        /// <summary>
+        /// Source: https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager.appsettings?view=netframework-4.8
+        /// </summary>
+        /// <param name="config"></param>
+        /// <param name="key"></param>
+        /// <returns></returns>
         private static string ReadSetting(Configuration config, string key)
         {
             try
@@ -84,6 +82,13 @@ namespace Com.RobFaust.Common.UserInterface
             return string.Empty;
         }
 
+        /// <summary>
+        /// Source: https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager.appsettings?view=netframework-4.8
+        /// </summary>
+        /// <param name="config"></param>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
         private static bool AddUpdateAppSettings(Configuration config, string key, string value)
         {
             try
