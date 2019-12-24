@@ -30,7 +30,7 @@ namespace Com.RobFaust.Common.UserInterface
             // Use case #1, informational message with no response
             SuppressibleMessageBox.Show(config, "msg1", "This message does not return a response", "Test Message #1");
 
-            // Use case #1, evaluate whether or not the message was shown
+            // Use case #2, evaluate whether or not the message was shown
             DialogResult result = SuppressibleMessageBox.Show(config, "msg2", "This message DOES return a response", "Test Message #2");
             if (result == DialogResult.None)
             {
@@ -38,7 +38,7 @@ namespace Com.RobFaust.Common.UserInterface
             }
             else
             {
-                MessageBox.Show($"The message box result was \"{result.ToString()}\"");
+                MessageBox.Show($"The message box was not suppressed and the result was \"{result.ToString()}\"");
             }
         }
 
