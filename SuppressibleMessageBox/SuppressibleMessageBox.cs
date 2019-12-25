@@ -121,5 +121,15 @@ namespace Com.RobFaust.Common.UserInterface
             MessageBox.Show(e.Message, "Error accessing configuration file", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
         #endregion
+
+        private void SuppressibleMessageBox_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // TODO: Change this behavior when MessageBoxButtons != OK
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                // Mimic behavior of standard "OK Only" MessageBox
+                DialogResult = btnOK.DialogResult;
+            }
+        }
     }
 }

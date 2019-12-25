@@ -133,6 +133,7 @@
             this.Name = "SuppressibleMessageBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Error";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SuppressibleMessageBox_FormClosing);
             this.tlpMain.ResumeLayout(false);
             this.tlpMessage.ResumeLayout(false);
             this.tlpMessage.PerformLayout();
