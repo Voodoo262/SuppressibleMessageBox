@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Com.RobFaust.Common.UserInterface.Properties {
+namespace Com.RjfTech.Common.UserInterface.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

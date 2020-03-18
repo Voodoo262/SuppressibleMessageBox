@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DE5FC8B2-738E-464D-B245-78BCC5DAD285}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Com.RobFaust.Common.UserInterface</RootNamespace>
+    <RootNamespace>Com.RjfTech.Common.UserInterface</RootNamespace>
     <AssemblyName>SuppressibleMessageBox</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("RJF Technology Solutions")]
 [assembly: AssemblyProduct("SuppressibleMessageBox")]
-[assembly: AssemblyCopyright("Copyright ©  2019 RobFaust.com")]
+[assembly: AssemblyCopyright("Copyright ©  2019 RjfTech.com")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

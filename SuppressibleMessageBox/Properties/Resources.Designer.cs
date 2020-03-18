@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Com.RobFaust.Common.UserInterface.Properties {
+namespace Com.RjfTech.Common.UserInterface.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Com.RobFaust.Common.UserInterface.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Com.RobFaust.Common.UserInterface.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Com.RjfTech.Common.UserInterface.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

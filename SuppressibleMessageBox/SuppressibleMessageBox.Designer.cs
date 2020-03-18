@@ -1,4 +1,4 @@
-﻿namespace Com.RobFaust.Common.UserInterface
+﻿namespace Com.RjfTech.Common.UserInterface
 {
     partial class SuppressibleMessageBox
     {
